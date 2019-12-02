@@ -1,0 +1,36 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack",
+    "start": "webpack --watch --mode=development",
+    "postinstall": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrose444/JavaScriptProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jrose444/JavaScriptProject/issues"
+  },
+  "homepage": "https://github.com/jrose444/JavaScriptProject#readme",
+  "description": ""
+}
